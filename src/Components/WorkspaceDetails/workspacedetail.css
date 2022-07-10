@@ -1,0 +1,65 @@
+.detailsparent {
+    display: grid;
+    place-items: center;
+    background-color: #ffffff;
+    height: 100vh;
+    width: auto;
+    padding-top: 20px;
+}
+
+.detailschild {
+    display: grid;
+    place-items: center;
+}
+
+.welcomeText {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descriptionText {
+    font-size: 15px;
+    margin-top: 15px;
+    color: gray;
+}
+
+.labelField {
+    font-size: 15px;
+    margin-left: 12%;
+    justify-self: left;
+}
+
+
+.inputField {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: gainsboro;
+    border-width: 0.5px;
+}
+
+
+label {
+    font-family: 'Inter';
+}
+
+.hintText {
+    color: gray;
+}
+
+button {
+    background-color: blueviolet;
+    margin-top: 15px;
+    color: #ffffff;
+    border-radius: 5px;
+    border-color: blueviolet;
+}
+
+.details {
+    margin-bottom: 20px;
+}
+
+.inputComponent {
+    display: flex;
+    flex-direction: column;
+}

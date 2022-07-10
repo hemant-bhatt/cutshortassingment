@@ -1,0 +1,26 @@
+#head {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#insta {
+    display: flex;
+    align-items: center;
+    font-family: Palatino;
+    font-size: 64px;
+    color: black;
+    opacity: 1;
+    padding-top: 20px;
+    padding-bottom: 33px;
+}
+
+#logo {
+    padding-left: 10px;
+}

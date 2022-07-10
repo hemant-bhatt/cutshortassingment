@@ -1,0 +1,48 @@
+.resultparent {
+    display: grid;
+    place-items: center;
+    background-color: #ffffff;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.resultchild {
+    display: grid;
+    text-align: center;
+}
+
+.welcomeText {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+label {
+    font-family: 'Inter';
+}
+
+button {
+    justify-self: center;
+    background-color: blueviolet;
+    width: 310px;
+    height: 35px;
+    margin-top: 15px;
+    color: #ffffff;
+    border-radius: 5px;
+    border-color: blueviolet;
+}
+
+.descriptionText {
+    font-size: 15px;
+    margin-top: 15px;
+    color: gray;
+}
+
+.done {
+    justify-self: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.result {
+    margin-bottom: 20px;
+}

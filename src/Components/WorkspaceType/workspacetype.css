@@ -1,0 +1,84 @@
+.typesparent {
+    display: grid;
+    place-items: center;
+    background-color: #ffffff;
+    height: 100vh;
+    width: auto;
+    padding-top: 20px;
+}
+
+.typeschild {
+    display: grid;
+    text-align: center;
+}
+
+.welcomeText {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descriptionText {
+    font-size: 15px;
+    margin-top: 15px;
+    color: gray;
+}
+
+.labelField {
+    font-size: 15px;
+    text-align: left;
+    padding-left: 28px;
+}
+
+.inputField {
+    justify-self: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: gainsboro;
+    border-width: 0.5px;
+}
+
+
+label {
+    font-family: 'Inter';
+}
+
+.hintText {
+    color: gray;
+}
+
+button {
+    justify-self: center;
+    background-color: blueviolet;
+    margin-top: 15px;
+    color: #ffffff;
+    border-radius: 5px;
+    border-color: blueviolet;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tiles {
+    text-align: left;
+    padding: 5px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+}
+
+.types {
+    margin-bottom: 20px;
+}
