@@ -22,18 +22,17 @@
     color: gray;
 }
 
-.labelField {
-    font-size: 25px;
-    margin-left: 12%;
-    justify-self: left;
+.homelabelField {
+    font-size: 15px;
 }
 
-.inputField {
+.homeinputField {
     margin-top: 5px;
     margin-bottom: 10px;
     border-radius: 5px;
     border-color: gainsboro;
     border-width: 0.5px;
+    height: 25px;
 }
 
 
@@ -45,12 +44,14 @@ label {
     color: gray;
 }
 
-button {
+.homebutton {
     background-color: blueviolet;
     margin-top: 15px;
     color: #ffffff;
     border-radius: 5px;
     border-color: blueviolet;
+    width: 23.5vw;
+    height: 30px;
 }
 
 .home {
@@ -58,7 +59,10 @@ button {
 }
 
 
-.inputComponent {
+.homeinputComponent {
     display: flex;
     flex-direction: column;
+    width: 23.5vw;
+    align-items: left;
 }
+

@@ -9,7 +9,7 @@
 
 .typeschild {
     display: grid;
-    text-align: center;
+    place-items: center;
 }
 
 .welcomeText {
@@ -47,21 +47,21 @@ label {
     color: gray;
 }
 
-button {
-    justify-self: center;
+.typesbutton {
     background-color: blueviolet;
     margin-top: 15px;
     color: #ffffff;
     border-radius: 5px;
     border-color: blueviolet;
+    width: 23.5vw;
+    height: 30px;
 }
 
 .categories {
     display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
+    flex-direction: column;
+    width: 23.5vw;
+    place-items: center;
 }
 
 .title {
@@ -72,6 +72,8 @@ button {
 .tiles {
     text-align: left;
     padding: 5px;
+    border-color: blueviolet;
+    border-style: solid;
 }
 
 .icon {
@@ -81,4 +83,11 @@ button {
 
 .types {
     margin-bottom: 20px;
+}
+
+.tilesOuter{
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: left;
+    justify-content: space-between;
 }

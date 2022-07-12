@@ -23,19 +23,18 @@
     color: gray;
 }
 
-.labelField {
+.detailslabelField {
     font-size: 15px;
-    margin-left: 12%;
-    justify-self: left;
 }
 
 
-.inputField {
+.detailsinputField {
     margin-top: 5px;
     margin-bottom: 10px;
     border-radius: 5px;
     border-color: gainsboro;
     border-width: 0.5px;
+    height: 25px;
 }
 
 
@@ -47,19 +46,23 @@ label {
     color: gray;
 }
 
-button {
+.detailsbutton {
     background-color: blueviolet;
     margin-top: 15px;
     color: #ffffff;
     border-radius: 5px;
     border-color: blueviolet;
+    width: 23.5vw;
+    height: 30px;
 }
 
 .details {
     margin-bottom: 20px;
 }
 
-.inputComponent {
+.detailsinputComponent {
     display: flex;
     flex-direction: column;
+    width: 23.5vw;
+    align-items: left;
 }

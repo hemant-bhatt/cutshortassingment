@@ -11,12 +11,12 @@ function HomePage() {
                 <label className='welcomeText'>Welcome! First things first...</label>
                 <label className='descriptionText'>You can always change them later</label>
                 <br />
-                <div className='inputComponent'>
-                    <label className='labelField'>Full Name</label>
-                    <input type='text' className='inputField' placeholder="Eden"></input>
-                    <label className='labelField'>Display Name<span className='hintText'> (optional)</span></label>
-                    <input type='text' className='inputField' placeholder="www.eden.com/"></input>
-                    <Link to="/details" style={{ textDecoration: "none" }}><button>Create Workspace</button></Link>
+                <div className='homeinputComponent'>
+                    <label className='homelabelField'>Full Name</label>
+                    <input type='text' className='homeinputField' placeholder="Eden"></input>
+                    <label className='homelabelField'>Display Name<span className='hintText'> (optional)</span></label>
+                    <input type='text' className='homeinputField' placeholder="www.eden.com/"></input>
+                    <Link to="/details" style={{ textDecoration: "none" }}><button className = 'homebutton'>Create Workspace</button></Link>
                 </div>
             </div>
         </div>

@@ -11,12 +11,12 @@ function WorkspaceDetails() {
                 <label className='welcomeText'>Let's set up a home for all your work</label>
                 <label className='descriptionText'>You can always create another workspace later</label>
                 <br />
-                <div className='inputComponent'>
-                    <label className='labelField'>Workspace Name</label>
-                    <input type='text' className='inputField' placeholder="Eden"></input>
-                    <label className='labelField'>Workspace URL</label>
-                    <input type='text' className='inputField' placeholder="www.eden.com/"></input>
-                    <Link to="/types" style={{ textDecoration: "none" }}><button>Create Workspace</button></Link>
+                <div className='detailsinputComponent'>
+                    <label className='detailslabelField'>Workspace Name</label>
+                    <input type='text' className='detailsinputField' placeholder="Eden"></input>
+                    <label className='detailslabelField'>Workspace URL</label>
+                    <input type='text' className='detailsinputField' placeholder="www.eden.com/"></input>
+                    <Link to="/types" style={{ textDecoration: "none" }}><button className='detailsbutton'>Create Workspace</button></Link>
                 </div>
             </div>
         </div>

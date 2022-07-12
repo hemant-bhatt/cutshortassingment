@@ -20,7 +20,7 @@ label {
     font-family: 'Inter';
 }
 
-button {
+.resultbutton {
     justify-self: center;
     background-color: blueviolet;
     width: 310px;

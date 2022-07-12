@@ -12,7 +12,7 @@ function WorkspaceDetails() {
                 <label className='welcomeText'>Congratulations! Eren</label>
                 <label className='descriptionText'>You have completed onboarding, you can start using Eden!</label>
 
-                <button>Launch Eden</button>
+                <button className='resultbutton'>Launch Eden</button>
             </div>
         </div>
     );
